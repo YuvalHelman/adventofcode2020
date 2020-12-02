@@ -34,7 +34,7 @@ def ex2(items: List[int], sum_of_items: int) -> int:
             continue
         first_idx, scd_idx = res
         if items[first_idx] + items[scd_idx] + items[i] == sum_of_items:
-            print("ex2 items: ",items[first_idx], items[scd_idx], items[i])
+            print("ex2 items: ", items[first_idx], items[scd_idx], items[i])
             return items[first_idx] * items[scd_idx] * items[i]
 
 
