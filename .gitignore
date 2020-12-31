@@ -1,3 +1,7 @@
 venv/*
+.env/*
 .idea/*
 .vscode/*
+
+# config file for input session cookie http request
+adventOfCode/aoc_request.json
